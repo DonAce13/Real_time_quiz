@@ -1,0 +1,181 @@
+html{
+    min-height:100%;position:relative}
+
+h1{
+    font-weight:700;letter-spacing:2px;margin-top:0;margin-bottom:0}
+h2{
+    margin-bottom:16px;margin-top:16px}a{cursor:pointer}
+h1 small,h2 small,h3 small,h4 small{
+    color:inherit;-webkit-opacity:.8;-moz-opacity:.8;opacity:.8}
+.ryuu-fade{
+    -webkit-opacity:1;-moz-opacity:1;opacity:1}
+.ryuu-fade.ng-enter{
+    -webkit-transition:.2s linear all;-moz-transition:.2s linear all;-ms-transition:.2s linear all;-o-transition:.2s linear all;-webkit-opacity:0;-moz-opacity:0;opacity:0}
+.ryuu-fade.ng-enter.ng-enter-active{
+    -webkit-opacity:1;-moz-opacity:1;opacity:1}
+.u-fade.ng-leave{
+    -webkit-transition:.2s linear opacity;-moz-transition:.2s linear opacity;-ms-transition:.2s linear opacity;-o-transition:.2s linear opacity;-webkit-opacity:1;-moz-opacity:1;opacity:1}
+.u-fade.ng-leave.ng-leave-active{
+    -webkit-opacity:0;-moz-opacity:0;opacity:0}
+.u-instant-fade{
+    -webkit-opacity:1;-moz-opacity:1;opacity:1}
+.u-instant-fade.ng-enter{
+    -webkit-transition:.5s linear all;-moz-transition:.5s linear all;-ms-transition:.5s linear all;-o-transition:.5s linear all;-webkit-opacity:0;-moz-opacity:0;opacity:0}
+.u-instant-fade.ng-enter.ng-enter-active{
+    -webkit-opacity:1;-moz-opacity:1;opacity:1}
+.u-instant-fade.ng-leave{
+    -webkit-opacity:0;-moz-opacity:0;opacity:0}
+.u-instant-fade.ng-leave.ng-leave-active{
+    -webkit-opacity:0;-moz-opacity:0;opacity:0}
+.u-collapse{
+    display:block;overflow:hidden}
+.u-collapse.ng-leave,.ryuu-collapse.ng-enter.ng-enter-active{
+    max-height:500px;-webkit-transition:.35s ease-in max-height;-moz-transition:.35s ease-in max-height;-ms-transition:.35s ease-in max-height;-o-transition:.35s ease-in max-height}
+.u-collapse.ng-enter,.u-collapse.ng-leave.ng-leave-active{
+    max-height:0;-webkit-transition:.35s ease-out max-height;-moz-transition:.35s ease-out max-height;-ms-transition:.35s ease-out max-height;-o-transition:.35s ease-out max-height}
+.u-no-margin-top{
+    margin-top:0}
+.u-no-margin-bottom{
+    margin-bottom:0}
+.u-small-margin-top{
+    margin-top:16px}
+.u-small-margin-bottom{
+    margin-bottom:16px}
+.u-big-margin-top{
+    margin-top:32px}
+.u-big-margin-bottom{
+    margin-bottom:32px}
+.u-huge-margin-top{
+    margin-top:48px}
+.u-huge-margin-bottom{
+    margin-bottom:48px}
+.u-font-smaller{
+    font-size:.6em}
+.u-font-bigger{
+    font-size:1.1em}
+.u-font-bigest{
+    font-size:1.4em}
+.u-font-icon-size{
+    font-size:4em}
+.u-uppercase{
+    text-transform:uppercase}
+.u-full-width{
+    width:100%}
+.u-is-centered{
+    text-align:center}.u-text-right{text-align:right}
+.u-inline-item{
+    display:inline-block;margin-right:8px}
+.u-float-none{
+    display:inline-block;float:none}
+.table .u-table-row-middle>td{
+    vertical-align:middle}
+.u-hidden-not-ready{
+    display:none}
+.u-hidden-not-error{
+    display:none}
+.has-error .u-hidden-not-error{
+    display:block}
+.u-center-hw{
+    bottom:0;display:block;height:100%;left:0;margin:auto;position:absolute;right:0;top:0;width:100%}
+.c-avatar{
+    background-color:#fff;border-radius:50%;display:inline-block;height:64px;width:64px}
+.c-avatar--is-centered{
+    margin:0 auto 16px auto}
+.c-avatar--clickable{
+    cursor:pointer}
+.c-avatar--clickable:hover,.c-avatar--clickable:active{
+    opacity:.8}
+.c-avatar--full-size{
+    display:block;height:150px;width:150px}
+.c-avatar--winner-size{
+    height:72px;margin:0 24px;width:72px}
+.c-avatar-winner-container{
+    display:block;height:120px;padding:24px;margin:0 auto;position:relative;width:120px}
+.c-avatar-winner-container .c-avatar{
+    height:72px;position:relative;width:72px}
+.c-avatar-winner-container::before{
+    -webkit-animation:loader 30s linear infinite;-moz-animation:loader 30s linear infinite;animation:loader 30s linear infinite;background-image:url(../images/winner.svg);background-size:100% 100%;content:"";display:block;height:120px;left:0;position:absolute;top:0;width:120px}
+.c-flash-container{
+    left:0;position:fixed;right:0;top:70px;z-index:1000}
+.c-flash-inner-container{
+    display:block;text-align:center}
+.c-flash{
+    display:inline-block;margin-bottom:8px;padding-bottom:8px;padding-top:8px}
+.c-footer{
+    background:#202532;bottom:0;color:#858f9e;height:60px;line-height:60px;position:absolute;width:100%}
+.c-form{
+    margin:0 auto}
+.c-form--small{
+    max-width:480px}
+.c-fullmodal{
+    background-color:#fff;width:100%;height:100%}
+.c-fullmodal .modal-dialog{
+    margin:0;min-height:100%;width:100%}
+.c-fullmodal .modal-content{
+    background-color:transparent;border:none;border-radius:0;box-shadow:none;overflow:auto;outline:0;position:static}
+.c-fullmodal.in .modal-dialog{
+    -webkit-transform:none;-moz-transform:none;-ms-transform:none;-o-transform:none}
+.c-fullmodal.fade .modal-dialog{
+    -webkit-transform:none;-moz-transform:none;-ms-transform:none;-o-transform:none;-webkit-transition:none;-moz-transition:none;-ms-transition:none;-o-transition:none}
+.c-icon--ryuu-logo{
+    background-image:url(../images/ryuu-logo.png);background-position:50% 50%;background-size:contain;background-repeat:no-repeat;display:block;height:100%;width:109px}
+.c-icon--sm-avatar{
+    height:64px;width:64px}
+.c-icon--avatar{
+    max-width:150px}
+.c-jumbotron{
+    background:#ebf0f6}
+.c-loader{
+    -webkit-animation:loader 2s linear infinite;-moz-animation:loader 2s linear infinite;animation:loader 2s linear infinite;border:16px solid #f3f3f3;border-top:16px solid #3498db;border-radius:50%;height:200px;margin:auto;width:200px}
+.c-loader__text{
+    height:200px;font-size:30px;font-weight:500;line-height:200px;text-align:center;width:200px}@-moz-keyframes loader{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@-webkit-keyframes loader{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes loader{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+    .c-main {
+        /* Your existing styles for c-main */
+        margin: 16px;
+        padding: 0;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .c-main::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('D:\Integ\wsquiz-0.9.0\wsquiz-0.9.0\public\assets') repeat-x;
+        background-size: cover;
+        animation: moveBackground 20s linear infinite;
+        z-index: -1;
+    }
+    
+    @keyframes moveBackground {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+    
+.c-main--with-progressbar{
+    margin-top:36px}
+.c-main__image{
+    background-position:50% 50%;background-size:contain;background-repeat:no-repeat}
+.c-main__answer{
+    font-size:1.8em;margin-bottom:16px;white-space:normal}.c-points{border-radius:4px;display:inline-block;padding:0 8px;position:absolute}
+.c-navbar{
+    border:none;-webkit-box-shadow:0 2px 5px 0 rgba(0,0,0,.26);-moz-box-shadow:0 2px 5px 0 rgba(0,0,0,.26);box-shadow:0 2px 5px 0 rgba(0,0,0,.26)}
+.c-progressbar{
+    height:20px;left:0;position:fixed;top:0;width:100%;z-index:1}
+.c-progressbar__status{
+    height:100%;font-weight:700;left:0;padding:0 8px;position:absolute;top:0;width:100%}
+.c-progressbar .progress{
+    border-radius:initial}
+.c-progressbar .progress-bar{
+    box-shadow:none;min-width:3em}@media (min-width:767px){.c-sidebar{display:table}
+.c-sidebar__left{
+    display:table-cell;vertical-align:top;max-width:255px;min-width:255px}
+.c-sidebar__right{
+    display:table-cell;vertical-align:top;width:100%}}
